@@ -1,0 +1,32 @@
+{
+  "name": "shoppinglist_mern_stack",
+  "version": "1.0.0",
+  "description": "Shopping List using MERN stack demo",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romocesar/ShoppingList_MERN_stack.git"
+  },
+  "author": "Cesar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romocesar/ShoppingList_MERN_stack/issues"
+  },
+  "homepage": "https://github.com/romocesar/ShoppingList_MERN_stack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
