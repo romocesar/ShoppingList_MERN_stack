@@ -56,4 +56,5 @@ class AppNavBar extends Component {
     }
 }
 
+//This file returns/outputs AppNavBar component
 export default AppNavBar;
